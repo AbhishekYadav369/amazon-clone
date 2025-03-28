@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    border:border-box;
+    /* setting the border acc to height & width & if padding given then content area,affected*/
+}
+
+.navbar{
+    background-color:#0f1111;
+    align-items:center;
+    height:60px;
+    color:white;
+    display:flex;
+    /*displaying multiple block element in single line*/
+
+    justify-content:space-evenly;
+}
+/* logo box*/
+
+.nav-logo{
+    height:40px;
+    width:110px;
+    padding:0.4rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo{
+    height:40px;
+    width:100%;
+    background-image:url("logo.png");
+    background-size:contain;  
+     /*for containing full space of parent block*/
+    
+     background-repeat:no-repeat;
+}
+
+.border{
+    border:1.5px solid transparent;
+    
+}
+.border:hover{
+        border:1.5px solid white;
+        
+    }
+
+    /*address box*/
+.add-deliver{
+    color:#cccccc;
+    margin-left:1rem;
+    font-size:0.8rem;/*define the size of text*/
+}
+.add-india{
+    color:#ffffff;
+    font-size:1.2rem;
+    margin-left:3px;
+}
+.nav-address
+{
+    padding:0.3rem;
+    height:40px;
+    width:80px;
+    align-items:center;
+}
+.add-icon{
+    display:flex;
+}
+/* search box*/
+.nav-search{
+    display:flex;
+    height:40px;
+    width: 560px;
+    font:14px;
+    border-radius:4px;
+    background-color:rgb(248, 191, 86);
+}
+.nav-search:hover{
+    border:2px solid rgb(248, 191, 86);
+}
+
+
+.search-select{
+    background-color:#f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+}
+.search-input{
+    width:460px;
+    border:none;
+    font-size:1rem;
+
+}
+.search-icon{
+    display:flex;
+    justify-content:center;/*horizontally center*/
+    align-items:center;
+    width:45px;
+    border:none;
+    font-size:1.2rem;
+
+}
+/*language box*/
+/*signin account*/
+
+span{
+    font-size:0.7rem;
+}
+.account{
+    font-size:0.8rem;
+    font-weight:700px;
+
+}
+/*return &order box*/
+.order{
+    font-size:0.8rem;
+}
+/*cart box*/
+.nav-cart i {
+    font-size:2rem;
+}
+.nav-cart{
+    font-size:0.85rem;
+    font-weight:700;
+}
+
+/*panel box*/
+
+.panel{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:#1f394a;
+    height:40px;
+    color:white;
+    align-items:center;
+}
+.panel-ops p{
+    width:130px;
+    margin-left:15px;
+}
+
+.panel-ops{
+    display:flex;
+    font-size:0.85rem;
+    width:75%;
+
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight:700;
+    
+}
+
+/*hero section*/
+.hero-section{
+    background-image:url(hero-image.jpg);
+    background-size:cover;
+    height:350px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.hero-msg{
+    background-color:white;
+    color:black;
+    height:40px;
+    width:95%;
+    font-size:0.85rem;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    margin-bottom:-18rem;
+}
+
+/*shoping section*/
+
+.shop-section{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color:#e2e7e6;
+}
+.box{
+    height:400px;
+    width:23%;
+    margin:10px;
+    background-color:#ffffff;
+    border:#1f394a transparent 2px;
+}
+.box-img{
+    height:300px;
+    background-repeat:no-repeat;
+    background-position-x:-2.8rem;
+    background-position-y: 2.8rem;
+    border:#f3f3f3 solid 1px;
+} 
+
+.box-content p{
+    color:blue;
+    padding-left:1.5rem;
+    padding-top:0.85rem;
+}
+.box-content h2{
+    height:3rem;
+
+}
+
+/*footer section*/
+
+.foot-back{
+    height:50px;
+    background-color:#1f394a;
+    color:#f3f3f3;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:medium;
+}
+.foot-list{
+    height:450px;
+    background-color:#0f1111;
+    color:white;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.foot-list ul{
+    padding-top:3rem;
+    font-size:1rem;
+}
+
+ul a {
+    display:block;/*spliting content in multiple lines */
+    padding-top:15px;
+    font-size:0.85rem;
+    color:#e2e7e6;   
+}
+
+
+.foot-list a:hover{
+    text-decoration:underline solid;
+}
+/* logo section*/
+
+.foot-bar{/*for horizontal rule b/w panels*/
+    height:1px;
+    background-color:#ffffff;
+}
+.foot-logo{
+    background-color:#0f1111;
+    color:#ffffff;
+    font-size:1.2rem;
+    height:80px;
+    width:100%;
+    padding:0.4rem;
+    display:flex;
+    justify-content:center;/*align content in center horizontally*/
+    align-items:center;/*align the content in center vertically*/
+}
+.amazon-logo{
+    height:30px;
+    width:7%;
+    background-image:url("logo.png");
+    background-size:contain;/*contain whole image*/
+    background-repeat:no-repeat;
+}
